@@ -103,7 +103,7 @@
             <img src="./assets/MEAN.svg" alt="livro mean" />
           </div>
           <div class="swiper-slide">
-            <img src="./assets/MetricasAgeis.svg" alt="livrometricas ageis" />
+            <img src="./assets/MetricasAgeis.svg" alt="livro metricas ageis" />
           </div>
           <div class="swiper-slide">
             <img src="./assets/Nodejs.svg" alt="livro nodejs" />
@@ -111,14 +111,116 @@
           <div class="swiper-slide">
             <img src="./assets/Portugol.svg" alt="livro portugol" />
           </div>
-        
         </div>
-        
+
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
       </div>
+
+      <div class="card">
+        <div class="card__descricao">
+          <div class="descricao">
+            <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+            <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+          </div>
+          <img src="./assets/Perfil-escritora 2.svg"  class="descricap__imagem" alt="livro angular">
+        </div>
+        <div class="card__botoes">
+          <ul class="botoes">
+            <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="favoritar livro"></li>
+            <li class="botoes__item"><img src="./assets/Compras.svg" alt="compras"></li>
+          </ul>
+          <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+<!-- =====================SECTION2=================================== -->
+
+    <section class="carrosel">
+      <h2 class="carrosel__titulo">MAIS VENDIDOS</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./assets/Construct2.svg" alt="livro construct2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/Gestão.svg" alt="livro gestao 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/Javascript.svg" alt="livro javascript" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/Gestão2.svg" alt="livro gestao" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/Tuning.svg" alt="livro tuning" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/UX.svg" alt="livro UX" />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="card">
+        <div class="card__descricao">
+          <div class="descricao">
+            <img src="./assets/Estrelinhas.svg" alt="estrelinhas">
+            <h3 class="descricao__titulo">Autora do Mês</h3>
+            <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+            <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+          </div>
+          <img src="./assets/Perfil-escritora 1.svg"  class="descricap__imagem" alt="Juliana Agarikov">
+        </div>
+        <div class="card__botoes">
+          <ul class="botoes">
+            <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="favoritar livro"></li>
+            <li class="botoes__item"><img src="./assets/Compras.svg" alt="compras"></li>
+          </ul>
+          <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="topicos">
+      <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+      <ul class="topicos__lista">
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Android</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Marketing Digital</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Agile</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Startups</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">HTML & CSS</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Python</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">OO</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Java</a>
+        </li>
+      </ul>
     </section>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
@@ -128,9 +230,9 @@
         slidesPerView: 3,
         pagination: {
           el: '.swiper-pagination',
-          type: 'bullets',
-        },
-      });
+          type: 'bullets'
+        }
+      })
     </script>
   </body>
 </html>
