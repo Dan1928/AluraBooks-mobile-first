@@ -13,6 +13,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
@@ -51,13 +55,23 @@
           alt="logo da alurabooks"
           class="container__imagem"
         />
+        <h1 class="container__titulo">
+          <b class="container__titulo-negrito">Alura</b>Books
+        </h1>
       </div>
+
+      <ul class="opcoes">
+        <li class="opcoes__item">Categorias</li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+      </ul>
+
       <div class="container">
         <a href="#"
           ><img
             src="./assets/Favoritos.svg"
             alt="favoritos"
-            class="container__imagem"
+            class="container__imagem favoritos-hidden"
         /></a>
         <a href="#"
           ><img
@@ -121,23 +135,35 @@
       <div class="card">
         <div class="card__descricao">
           <div class="descricao">
-            <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+            <h3 class="descricao__titulo">
+              Talvez você também se interesse por...
+            </h3>
             <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-            <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            <p class="descricao__texto">
+              Construindo uma aplicação integrada com a plataforma do Google.
+            </p>
           </div>
-          <img src="./assets/Perfil-escritora 2.svg"  class="descricap__imagem" alt="livro angular">
+          <img
+            src="./assets/Perfil-escritora 2.svg"
+            class="descricap__imagem"
+            alt="livro angular"
+          />
         </div>
         <div class="card__botoes">
           <ul class="botoes">
-            <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="favoritar livro"></li>
-            <li class="botoes__item"><img src="./assets/Compras.svg" alt="compras"></li>
+            <li class="botoes__item">
+              <img src="./assets/Favoritos.svg" alt="favoritar livro" />
+            </li>
+            <li class="botoes__item">
+              <img src="./assets/Compras.svg" alt="compras" />
+            </li>
           </ul>
           <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
       </div>
     </section>
 
-<!-- =====================SECTION2=================================== -->
+    <!-- =====================SECTION2=================================== -->
 
     <section class="carrosel">
       <h2 class="carrosel__titulo">MAIS VENDIDOS</h2>
@@ -176,17 +202,28 @@
       <div class="card">
         <div class="card__descricao">
           <div class="descricao">
-            <img src="./assets/Estrelinhas.svg" alt="estrelinhas">
+            <img src="./assets/Estrelinhas.svg" alt="estrelinhas" />
             <h3 class="descricao__titulo">Autora do Mês</h3>
             <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-            <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+            <p class="descricao__texto">
+              Analista de sistemas e escritora, Juliana é especialista em
+              Front-End.
+            </p>
           </div>
-          <img src="./assets/Perfil-escritora 1.svg"  class="descricap__imagem" alt="Juliana Agarikov">
+          <img
+            src="./assets/Perfil-escritora 1.svg"
+            class="descricap__imagem"
+            alt="Juliana Agarikov"
+          />
         </div>
         <div class="card__botoes">
           <ul class="botoes">
-            <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="favoritar livro"></li>
-            <li class="botoes__item"><img src="./assets/Compras.svg" alt="compras"></li>
+            <li class="botoes__item">
+              <img src="./assets/Favoritos.svg" alt="favoritar livro" />
+            </li>
+            <li class="botoes__item">
+              <img src="./assets/Compras.svg" alt="compras" />
+            </li>
           </ul>
           <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
@@ -225,11 +262,17 @@
 
     <section class="contato">
       <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-      <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-      <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+      <p class="contato__texto">
+        Atualizações de e-books, novos livros, promoções e outros.
+      </p>
+      <input
+        type="email"
+        placeholder="Cadastre seu e-mail"
+        class="contato__email"
+      />
     </section>
 
-    <hr/>
+    <hr />
 
     <footer class="rodape">
       <h2 class="rodape__titulo">Grupo Alura</h2>
